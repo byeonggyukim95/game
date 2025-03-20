@@ -1,5 +1,6 @@
 package com.kbg.game.model.lostark;
 
+import com.kbg.game.common.enums.CharacterClassCode;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,7 +10,7 @@ import java.math.BigDecimal;
 @Setter
 public class CharacterClassCritical {
 
-    private String characterClass;
+    private CharacterClassCode characterClass;
     private Integer classNode;
     private Integer skill;
     private String backAttackYn;

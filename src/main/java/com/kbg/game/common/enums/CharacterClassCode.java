@@ -3,7 +3,7 @@ package com.kbg.game.common.enums;
 import lombok.Getter;
 
 @Getter
-public enum CharacterClass {
+public enum CharacterClassCode {
 
     LUNAR_VOICE("LUNAR_VOICE", "달의소리"),
     PREDATOR("predator", "포식자"),
@@ -13,7 +13,7 @@ public enum CharacterClass {
     private String code;
     private String name;
 
-    CharacterClass(String code, String name) {
+    CharacterClassCode(String code, String name) {
         this.code = code;
         this.name = name;
     }

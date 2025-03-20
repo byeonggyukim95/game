@@ -2,8 +2,8 @@ package com.kbg.game.service.lostark.impl;
 
 import com.kbg.game.conifg.mapper.game.GameMapper;
 import com.kbg.game.model.lostark.CharacterClassCritical;
-import com.kbg.game.model.lostark.CharacterClassCriticalReq;
-import com.kbg.game.model.lostark.CharacterClassCriticalResp;
+import com.kbg.game.model.lostark.req.CharacterClassCriticalReq;
+import com.kbg.game.model.lostark.resp.CharacterClassCriticalResp;
 import com.kbg.game.service.lostark.LostarkService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

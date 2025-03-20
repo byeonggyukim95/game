@@ -1,7 +1,7 @@
 package com.kbg.game.controller;
 
-import com.kbg.game.model.lostark.CharacterClassCriticalReq;
-import com.kbg.game.model.lostark.CharacterClassCriticalResp;
+import com.kbg.game.model.lostark.req.CharacterClassCriticalReq;
+import com.kbg.game.model.lostark.resp.CharacterClassCriticalResp;
 import com.kbg.game.model.lostark.news.News;
 import com.kbg.game.model.lostark.auctions.AuctionItem;
 import com.kbg.game.model.lostark.auctions.req.AuctionsItemsReq;
@@ -10,7 +10,6 @@ import com.kbg.game.service.lostark.LostarkService;
 import com.kbg.game.transfer.lostark.LostarkTransfer;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

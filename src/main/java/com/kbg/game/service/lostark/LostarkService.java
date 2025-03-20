@@ -1,7 +1,7 @@
 package com.kbg.game.service.lostark;
 
-import com.kbg.game.model.lostark.CharacterClassCriticalReq;
-import com.kbg.game.model.lostark.CharacterClassCriticalResp;
+import com.kbg.game.model.lostark.req.CharacterClassCriticalReq;
+import com.kbg.game.model.lostark.resp.CharacterClassCriticalResp;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.kbg.game.model.lostark;
+package com.kbg.game.model.lostark.resp;
 
 import lombok.Builder;
 import lombok.Getter;

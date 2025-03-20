@@ -10,7 +10,7 @@ public class NewsReq {
 
     private String searchText;
     private String type;
-    @Max(value = 20)
+    @Max(value = 20, message = "new.req.size.invalid")
     private int size;
 
 }

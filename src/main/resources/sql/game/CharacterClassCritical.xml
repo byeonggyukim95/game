@@ -32,7 +32,15 @@
             #{elixirYn},
             #{adrenaline},
             #{arkPassiveNode}
-        )
+        ) ON DUPLICATE KEY UPDATE
+            `class_node` = #{classNode},
+            `skill` = #{skill},
+            `back_attack_yn` = #{backAttackYn},
+            `first_ring` = #{firstRing},
+            `second_ring` = #{secondRing},
+            `elixir_yn` = #{elixirYn},
+            `adrenaline` = #{adrenaline},
+            `ark_passive_node` = #{arkPassiveNode}
     </insert>
 
 
